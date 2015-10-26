@@ -78,6 +78,7 @@ subprojects {
     compile spinnaker.dependency('groovy')
     compile spinnaker.dependency('guava')
     compile spinnaker.dependency('slf4jApi')
+    compile 'org.springframework.cloud:spring-cloud-starter-config:1.0.3.RELEASE'
     testRuntime spinnaker.dependency('slf4jSimple')
   }
 }
